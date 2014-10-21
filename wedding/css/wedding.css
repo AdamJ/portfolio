@@ -1,0 +1,107 @@
+/* RSVP Form */
+
+/* --end -- */
+body {
+    background-image: url('../img/sunflower.jpg');
+    box-shadow: inset 0px 1px 0px 0px rgba(0,0,0,0.05), inset 0px 2px 3px 0px rgba(0,0,0,0.1);
+    color: #888;
+    line-height: 1.85em;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 13px;
+    font-weight: 300;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+}
+
+a {
+    color: #862200;
+}
+a:visted {
+    color: #862200;
+}
+
+.form-horizontal .control-label {
+    text-align: left;
+}
+
+/*
+    Background color #862200
+*/
+.masthead {
+    background-color: rgba(173,61,61,0.01);
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 5px;
+    z-index: 1;
+}
+
+.header {
+    border-bottom: 1px solid #e95a22;
+}
+h2 {
+    color: #e95a22;
+}
+.row {
+    margin-bottom: 10px;
+}
+.img-headshot {
+    display: block;
+    height: 17em;
+}
+.img-circle {
+    border-radius: 30%;
+}
+.registry {
+    height: 70px;
+}
+.macys {
+    width: 200px;
+}
+a, a:focus, a:hover {
+    background-color: transparent;
+    color: #862200;
+    text-decoration: none;
+}
+
+ a:hover {
+    background-color: transparent;
+    color: #862200;
+    text-decoration: none;
+}
+
+ a:focus {
+    background-color: transparent;
+    color: #862200;
+    text-decoration: none;
+}
+
+ a:visited {
+    background-color: transparent;
+    color: #862200;
+    text-decoration: none;
+}
+
+/* Style the text boxes */
+input, textarea {
+    background:#efefef;
+    border:1px solid #dedede;
+    font-size:0.9em;
+    color:#3a3a3a;
+    -moz-border-radius:5px;
+    -webkit-border-radius:5px;
+    border-radius:5px;
+}
+input:focus, textarea:focus {
+    border:1px solid #97d6eb;
+}
+#submit {
+    width:127px;
+    height:38px;
+    background:url(../../dist/img/submit.jpg);
+    text-indent:-9999px;
+    border:none;
+    margin-top:20px;
+    cursor:pointer;
+}
+#submit:hover {
+    opacity:.9;
+}
