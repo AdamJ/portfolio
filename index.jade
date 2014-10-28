@@ -1,17 +1,8 @@
 include views/site/header.jade
 include views/site/navbar.jade
 
-        ul.nav.nav-justified
-          li.active
-            a(href="index.html") Home
-          li
-            a(href="resume.html") Resume
-          li
-            a(href="portfolio.html") Portfolio
-          li
-            a(href="software.html") Software
-
-        .row.row-offcanvas.row-offcanvas-right
-          include views/include/intro.jade
+.container
+  .row.row-offcanvas.row-offcanvas-right
+    include views/include/intro.jade
 
 include views/site/footer.jade

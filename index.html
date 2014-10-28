@@ -4,39 +4,47 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Adam J. Jolicoeur</title>
   <link rel="icon" type="image/png" href="img/headshot.png">
-  <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css" type="text/css">
-  <link rel="stylesheet" href="bower_components/fontawesome/css/font-awesome.min.css" type="text/css">
+  <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
+  <link rel="stylesheet" href="css/font-awesome.min.css" type="text/css">
   <link rel="stylesheet" href="css/navbar.css" type="text/css">
   <link rel="stylesheet" href="css/custom.css" type="text/css">
   <link rel="stylesheet" href="css/mobile.css" type="text/css">
 </html>
-<body>
-  <div class="navbar-wrapper">
-    <div class="container">
-      <div class="masthead"></div>
-      <ul class="nav nav-justified">
-        <li class="active"><a href="index.html">Home</a></li>
+<body></body>
+<nav role="navigation" class="navbar navbar-fixed-top navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" data-toggle="collapse" data-target="#portfolio-navbar-collapse" class="navbar-toggle collapsed"><span class="sr-only">Toggle Navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button><a href="#" class="navbar-brand">AJ</a>
+    </div>
+    <div id="portfolio-navbar-collapse" class="collapse navbar-collapse">
+      <ul class="nav navbar-nav">
+        <li><a href="index.html">Home</a></li>
         <li><a href="resume.html">Resume</a></li>
         <li><a href="portfolio.html">Portfolio</a></li>
         <li><a href="software.html">Software</a></li>
       </ul>
-      <div class="row row-offcanvas row-offcanvas-right">
-        <div class="col-sm-12">
-          <div class="jumbotron">
-            <div class="row">
-              <div class="col-sm-8">
-                <h1>Hi</h1>
-                <h2>My name is <b>Adam Jolicoeur.</b></h2>
-                <p>This is <b>adamjolicoeur.com</b>; a site designed by me to display my work in web development and design.</p>
-              </div>
-              <div class="col-sm-4"><img src="img/headshot.jpg" alt="#" class="img-circle img-headshot mobile-center"></div>
-            </div>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="mailto:adam@adamjolicoeur.com?subject=Contact from AdamJolicoeur.com">Contact Me</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+<div class="container">
+  <div class="row row-offcanvas row-offcanvas-right">
+    <div class="col-sm-12">
+      <div class="jumbotron">
+        <div class="row">
+          <div class="col-sm-8">
+            <h1>Hi.</h1>
+            <h2>My name is <b>Adam Jolicoeur.</b></h2>
+            <p>This is <b>adamjolicoeur.com</b>; a site designed by me to display my work in web development and design.</p>
           </div>
+          <div class="col-sm-4"><img src="img/headshot.jpg" alt="#" class="img-headshot mobile-center"></div>
         </div>
       </div>
     </div>
   </div>
-</body>
+</div>
 <hr>
 <footer class="center">
   <div class="col-md-12">
@@ -51,4 +59,6 @@
     </p>
   </div>
 </footer>
-<script src="bower_components/bootstrap/dist/js/bootstrap.js"></script>
+<script src="js/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/modernizr.js"></script>

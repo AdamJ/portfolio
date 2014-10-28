@@ -15,14 +15,15 @@ body {
     font-size: 13px;
     font-weight: 300;
 }
+
+footer {
+}
+
 button {
     background-color: transparent;
     border-radius: 5px;
     box-shadow: none;
     font-size: 12px;
-}
-.nav-justified > li > a {
-    font-size: 16px;
 }
 .jumbotron {
     background-color: transparent;
@@ -45,11 +46,16 @@ button {
     border-radius: 5px;
     box-shadow: 5px 5px 5px #f7f7f7;
 }
-.img-headshot {
-    display: block;
+
+@media (min-width: 995px) {
+  .img-headshot {
+    border-radius: 10%;
     height: 12em;
-    margin: 0px 50px 0px 0px;
-    width: 10em;
+    margin: 70px 50px 0px 0px;
+  }
+  .rotate {
+    transform: rotate(90deg);
+  }
 }
 .img-thumb {
     border-radius: 5%;
