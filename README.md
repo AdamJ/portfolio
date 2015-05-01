@@ -4,17 +4,28 @@ AdamJolicoeur.com
 This is my personal website, uploaded to GitHub for code review and storage.
 
 
-Technologies Used:
+Technologies:
 ------------------
 - JADE
 - HTML5
 - CSS3
 - LESS
-- Bootstrap 3.0.3
+- jQuery
+- FontAwesome
+- Bootstrap 3.x
 - BOWER
 - MAMP
 
-Software Used:
+UX/Prototyping Tools:
+-----------------
+- Axure
+- Balsamiq Mockups
+- Adobe Photoshop
+- Adobe Illustrator
+- Adobe Acrobat
+- Pixelmator
+
+Development Tools:
 -----------------
 - ATOM
 - MAMP
@@ -22,7 +33,7 @@ Software Used:
 - Tower (for Git handling)
 - Chrome Developer Tools
 - GitHub
-- iTerm (custom GitHub command line shortcuts, found on my GitHub page)
+- iTerm <a href="https://github.com/mindreeper2420/iTerm-Settings">(custom GitHub command line shortcuts)</a>
 
 --------
 
