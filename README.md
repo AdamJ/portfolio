@@ -3,6 +3,14 @@ AdamJolicoeur.com
 
 This is my personal website, uploaded to GitHub for code review and storage.
 
+UX/Prototyping Tools:
+-----------------
+- Axure
+- Balsamiq Mockups
+- Adobe Photoshop
+- Adobe Illustrator
+- Adobe Acrobat
+- Pixelmator
 
 Technologies:
 ------------------
@@ -15,15 +23,6 @@ Technologies:
 - Bootstrap 3.x
 - BOWER
 - MAMP
-
-UX/Prototyping Tools:
------------------
-- Axure
-- Balsamiq Mockups
-- Adobe Photoshop
-- Adobe Illustrator
-- Adobe Acrobat
-- Pixelmator
 
 Development Tools:
 -----------------
