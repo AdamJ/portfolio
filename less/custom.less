@@ -1,133 +1,90 @@
-/* Font Awesome Icon Colors */
-.fa.fa-linkedin-square.fa-2x {
-    color: #000000;
-}
-.fa.fa-github.fa-2x {
-    color: #000000;
-}
-/* Bootstrap overrides */
 body {
-    background-image: url('../img/bg.png');
-    box-shadow: inset 0px 1px 0px 0px rgba(0,0,0,0.05), inset 0px 2px 3px 0px rgba(0,0,0,0.1);
-    color: #888;
-    line-height: 1.85em;
-    font-family: 'Open Sans', sans-serif;
-    font-size: 13px;
-    font-weight: 300;
+  background-color: #CFD8DC;
+  color: #212121;
+  font-family: Roboto, sans-serif;
 }
-
 footer {
+    background-color: #455A64;
+    text-align: center;
+    bottom: 0;
+    left: 0;
+    position: fixed;
+    height: 7%;
+    padding: 2px 0;
+    .copyright {
+        color: #ffffff;
+    }
 }
-
-button {
-    background-color: transparent;
-    border-radius: 5px;
-    box-shadow: none;
-    font-size: 12px;
+h1, h2, h3, h4, h5 {
+    margin: 20px 0 0 10px;
 }
-.jumbotron {
-    background-color: transparent;
+h1 {
+    font-size: 60px;
 }
-.jumbotron.slogan {
-    padding-bottom: 0px;
-    margin-bottom: -50px;
+h2 {
+    font-size: 30px;
 }
-.large {
-  font-size: large;
+h3 {
+    font-size: 20px;
 }
-.unstyled {
-  list-style: none;
+h4 {
+    font-size: 15px;
+}
+.bold {
+    font-weight: bold;
+}
+.italic {
+    font-style: italic;
 }
 .center {
-  text-align: center;
+    text-align: center;
 }
-.whitebg {
-    background-color: #ffffff;
-    border-radius: 5px;
-    box-shadow: 5px 5px 5px #f7f7f7;
+.orange {
+    color: #FF5722;
 }
-
-@media (min-width: 995px) {
-  .img-headshot {
-    border-radius: 10%;
-    height: 12em;
-    margin: 70px 50px 0px 0px;
-  }
-  .rotate {
-    transform: rotate(90deg);
-  }
+#contactInfo {
+    a {
+        color: #FF5722;
+        &:hover {
+            text-decoration: underline;
+        }
+    }
 }
-.img-thumb {
-    border-radius: 5%;
-    width: 330px;
+.fa {
+    color: #212121;
+    &:hover {
+        color: #FF5722;
+    }
 }
-.img-iphone {
-    border-radius: 5%;
-    display: block;
-    height: 15em;
-    margin: 0px 50px;
-    width: 10em;
+.intro {
+    color: #727272;
+    text-align: center;
 }
-.img-alignment {
-    margin-left: 150px;
+.home-header {
+    position: absolute;
+    top: 30px;
+    left: 7px;
+    font-size: 1.1em;
+    width: 180px;
+    height: 48px;
 }
-.img-circle {
-    border-radius: 30%;
+.home-button {
+    width: 180px;
+    height: 48px;
 }
-.row.content-resume li {
-    text-align: left;
+.row-explore {
+    margin-top: 25px;
+    text-align: center;
 }
-.subtitle {
-    font-size: 16px;
-}
-.subtitle a, a:hover, a:focus, a:visited {
-    background-color: transparent;
-    color: navy;
-    text-decoration: none;
-}
-
-/* Form Styling */
-label {
-    display:block;
-    margin-top:20px;
-    letter-spacing:2px;
-}
-/* Centre the form within the page */
-form {
-    margin:0 auto;
-    width:459px;
-}
-
-/* Style the text boxes */
-input, textarea {
-    width:439px;
-    height:27px;
-    background:#efefef;
-    border:1px solid #dedede;
-    padding:10px;
-    margin-top:3px;
-    font-size:0.9em;
-    color:#3a3a3a;
-    -moz-border-radius:5px;
-    -webkit-border-radius:5px;
-    border-radius:5px;
-}
-textarea {
-    max-height:213px;
-    min-height:213px;
-}
-input:focus, textarea:focus {
-    border:1px solid #97d6eb;
-}
-#submit {
-    width:127px;
-    height:38px;
-    background:url(../../dist/img/submit.jpg);
-    text-indent:-9999px;
-    border:none;
-    margin-top:20px;
-    cursor:pointer;
-}
-#submit:hover {
-    opacity:.9;
+.primary-btn {
+    height: 50px;
+    border-radius: 4px;
+    background-color: #03A9F4;
+    color: #ffffff;
+    border: none;
+    font-size: 1.2em;
+    &:hover {
+        background-color: #0288D1;
+        cursor: pointer;
+    }
 }
