@@ -14723,15 +14723,6 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/software.html": {
-		"fileType": 8192,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/software.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
 	"\/software.jade": {
 		"compileDebug": 1,
 		"fileType": 512,
