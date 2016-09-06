@@ -1,73 +1,41 @@
 <!DOCTYPE html>
-<html>
-  <html lang="en" class="no-js"></html>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Adam J. Jolicoeur</title>
-  <link rel="icon" type="image/png" href="img/headshot.png">
-  <link rel="stylesheet" href="css/normalize.css" type="text/css">
-  <link rel="stylesheet" href="css/site.css" type="text/css">
-  <link rel="stylesheet" href="css/component.css" type="text/css">
-  <!--link(rel='stylesheet', href='css/hover.css', type='text/css' )-->
-  <link rel="stylesheet" href="css/patternfly.min.css" type="text/css">
+<!--
+Material Design Lite
+Copyright 2015 Google Inc. All rights reserved.
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+https://www.apache.org/licenses/LICENSE-2.0
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License
+-->
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="A portfolio template that uses Material Design Lite.">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+    <title>Adam J. Jolicoeur</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:regular,bold,italic,thin,light,bolditalic,black,medium&amp;lang=en">
+    <link rel="stylesheet" href="https://code.getmdl.io/1.2.0/material.blue_grey-light_blue.min.css">
+    <link rel="stylesheet" href="css/material.css">
+    <link rel="stylesheet" href="css/site.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+  </head>
+  <body></body>
 </html>
-<body style="height: 93%" class="no-touch"></body>
-<div class="container navigation">
-  <div class="main">
-    <nav id="cbp-hrmenu" class="cbp-hrmenu"><span class="pull-right copyright"><a href="index.html">&copy; Adam J. Jolicoeur, 2008-2015</a></span>
-      <ul>
-        <li><a href="#" class="fa fa-map-signs bold"> <span class="header-link">Explore</span></a>
-          <div class="cbp-hrsub">
-            <div class="cbp-hrsub-inner">
-              <div>
-                <h4>Portfolio</h4>
-                <ul>
-                  <li><a href="gallery.html" class="fa fa-file-code-o">&nbsp; Gallery of Designs</a></li>
-                  <li><a href="http://www.coroflot.com/ajolicoeur/portfolio" class="fa fa-file-image-o">&nbsp; Coroflot</a></li>
-                </ul>
-              </div>
-              <div>
-                <h4>What I Use</h4>
-                <ul>
-                  <li><a href="software.html" class="fa fa-code">&nbsp; Software, Technologies &amp; Practices</a></li>
-                </ul>
-              </div>
-              <div>
-                <h4>Projects</h4>
-                <ul>
-                  <li><a href="http://www.thescouterslodge.org" target="top" class="fa fa-external-link">&nbsp; The Scouters Lodge.org</a></li>
-                  <li><a href="http://rufusputnamlodge.org" target="top" class="fa fa-external-link">&nbsp; Rufus Putnam Lodge.org</a></li>
-                </ul>
-              </div>
-            </div>
-          </div>
-        </li>
-        <li><a href="#" class="fa fa-hand-spock-o bold">&nbsp; Reach Out</a>
-          <div class="cbp-hrsub">
-            <div class="cbp-hrsub-inner">
-              <div>
-                <h4>Resume</h4>
-                <ul>
-                  <li><a href="resume.html" class="fa fa-file-code-o">&nbsp; HTML</a></li>
-                  <li><a href="resources/AdamJolicoeurResume_Web.pdf" target="top" class="fa fa-file-pdf-o">&nbsp; PDF</a></li>
-                  <li><a href="README.html" target="top" class="fa fa-file-text-o">&nbsp; Readme</a></li>
-                  <li><a href="https://www.behance.net/ajolicoeur" target="top" class="fa fa-external-link">&nbsp; Behance</a></li>
-                </ul>
-              </div>
-              <div>
-                <h4>Contact</h4>
-                <ul>
-                  <li><a href="mailto:adam.jolicoeur@icloud.com?subject=Contact from AdamJolicoeur.com" class="fa fa-envelope">&nbsp; Email</a></li>
-                  <li><a href="https://www.linkedin.com/in/ajjolicoeur" class="fa fa-linkedin-square">&nbsp; LinkedIn</a></li>
-                  <li><a href="https://github.com/mindreeper2420" class="fa fa-github">&nbsp; GitHub</a></li>
-                </ul>
-              </div>
-            </div>
-          </div>
-        </li>
-      </ul>
-    </nav>
+<header class="mdl-layout__header mdl-layout__header--waterfall portfolio-header">
+  <div class="mdl-layout__header-row portfolio-logo-row"><span class="mdl-layout__title">
+      <div class="portfolio-logo"></div><span class="mdl-layout__title">Simple portfolio website</span></span></div>
+  <div class="mdl-layout__header-row portfolio-navigation-row mdl-layout--large-screen-only">
+    <nav class="mdl-navigation mdl-typography--body-1-force-preferred-font"><a href="index.html" class="mdl-navigation__link is-active">Portfolio</a><a href="blog.html" class="mdl-navigation__link">Blog</a><a href="about.html" class="mdl-navigation__link">About</a><a href="contact.html" class="mdl-navigation__link">Contact</a></nav>
   </div>
+</header>
+<div class="mdl-layout__drawer mdl-layout--small-screen-only">
+  <nav class="mdl-navigation mdl-typography--body-1-force-preferred-font"><a href="index.html" class="mdl-navigation__link is-active">Portfolio</a><a href="blog.html" class="mdl-navigation__link">Blog</a><a href="about.html" class="mdl-navigation__link">About</a><a href="contact.html" class="mdl-navigation__link">Contact</a></nav>
 </div>
 <div class="container main-content">
   <article>
@@ -76,13 +44,15 @@
     <button id="clear" type="button">Clear</button>
   </article>
 </div>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-<script src="js/cbpHorizontalMenu.min.js"></script>
-<script src="js/gamingapp.js"></script>
-<script src="js/notouch.js"></script>
-<script src="js/patternfly.min.js"></script>
-<script>
-  $(function() {
-  cbpHorizontalMenu.init();
-  });
-</script>
+<footer class="mdl-mini-footer">
+  <div class="mdl-mini-footer__left-section">
+    <div class="mdl-logo">Simple portfolio website</div>
+  </div>
+  <div class="mdl-mini-footer__right-section">
+    <ul class="mdl-mini-footer__link-list">
+      <li><a href="#">Help</a></li>
+      <li><a href="#">Privacy & Terms</a></li>
+    </ul>
+  </div>
+</footer>
+<script src="https://code.getmdl.io/1.2.0/material.min.js"></script>

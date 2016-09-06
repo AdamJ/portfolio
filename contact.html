@@ -1,0 +1,56 @@
+
+<!-- navigation-->
+<header class="mdl-layout__header mdl-layout__header--waterfall portfolio-header">
+  <div class="mdl-layout__header-row portfolio-logo-row"><span class="mdl-layout__title">
+      <div class="portfolio-logo"></div><span class="mdl-layout__title">Simple portfolio website</span></span></div>
+  <div class="mdl-layout__header-row portfolio-navigation-row mdl-layout--large-screen-only">
+    <nav class="mdl-navigation mdl-typography--body-1-force-preferred-font"><a href="index.html" class="mdl-navigation__link is-active">About</a><a href="blog.html" class="mdl-navigation__link">Blog</a><a href="gallery.html" class="mdl-navigation__link">Portfolio</a><a href="resume.html" class="mdl-navigation__link">Resume</a></nav>
+  </div>
+</header>
+<div class="mdl-layout__drawer mdl-layout--small-screen-only">
+  <nav class="mdl-navigation mdl-typography--body-1-force-preferred-font"><a href="index.html" class="mdl-navigation__link is-active">About</a><a href="blog.html" class="mdl-navigation__link">Blog</a><a href="gallery.html" class="mdl-navigation__link">Portfolio</a><a href="resume.html" class="mdl-navigation__link">Resume</a></nav>
+</div>
+<!-- content-->
+<main class="mdl-layout__content">
+  <div class="mdl-grid portfolio-max-width portfolio-contact">
+    <div class="mdl-cell mdl-cell--12-col mdl-card mdl-shadow--4dp">
+      <div class="mdl-card__title">
+        <h2 class="mdl-card__title-text">Contact</h2>
+      </div>
+      <div class="mdl-card__media"><img src=" images/contact-image.jpg" border="0" alt="" class="article-image"/></div>
+      <div class="mdl-card__supporting-text">
+        <p>Enim labore aliqua consequat ut quis ad occaecat aliquip incididunt. Sunt nulla eu enim irure enim nostrud aliqua consectetur ad consectetur sunt ullamco officia. Ex officia laborum et consequat duis.</p>
+        <p>Excepteur reprehenderit sint exercitation ipsum consequat qui sit id velit elit. Velit anim eiusmod labore sit amet.</p>
+        <form action="#">
+          <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+            <input id="Name" pattern="[A-Z,a-z, ]*" type="text" class="mdl-textfield__input"/>
+            <label for="Name" class="mdl-textfield__label">Name...</label><span class="mdl-textfield__error">Letters and spaces only</span>
+          </div>
+          <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+            <input id="Email" type="text" class="mdl-textfield__input"/>
+            <label for="Email" class="mdl-textfield__label">Email...</label>
+          </div>
+          <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+            <textarea id="note" type="text" rows="5" class="mdl-textfield__input"></textarea>
+            <label for="note" class="mdl-textfield__label">Enter note</label>
+          </div>
+          <p>
+            <button type="submit" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent">Submit</button>
+          </p>
+        </form>
+      </div>
+    </div>
+  </div>
+  <footer class="mdl-mini-footer">
+    <div class="mdl-mini-footer__left-section">
+      <div class="mdl-logo">Simple portfolio website</div>
+    </div>
+    <div class="mdl-mini-footer__right-section">
+      <ul class="mdl-mini-footer__link-list">
+        <li><a href="#">Help</a></li>
+        <li><a href="#">Privacy & Terms</a></li>
+      </ul>
+    </div>
+  </footer>
+</main>
+<script src="https://code.getmdl.io/1.2.0/material.min.js"></script>

@@ -1,54 +1,64 @@
-.container.navigation
-    .main
-      nav#cbp-hrmenu.cbp-hrmenu
-        span.pull-right.copyright
-          a(href='index.html') &copy; Adam J. Jolicoeur, 2008-2015
-        ul
-          li
-            a(href='#').fa.fa-map-signs.bold 
-              span.header-link Explore
-            .cbp-hrsub
-              .cbp-hrsub-inner
-                div
-                  h4 Portfolio
-                  ul
-                    li
-                      a(href='gallery.html').fa.fa-file-code-o &nbsp; Gallery of Designs
-                    li
-                      a(href='http://www.coroflot.com/ajolicoeur/portfolio').fa.fa-file-image-o &nbsp; Coroflot
-                div
-                  h4 What I Use
-                  ul
-                    li
-                      a(href='software.html').fa.fa-code &nbsp; Software, Technologies &amp; Practices
-                div
-                  h4 Projects
-                  ul
-                    li
-                      a(href='http://www.thescouterslodge.org' target='top').fa.fa-external-link &nbsp; The Scouters Lodge.org
-                    li
-                      a(href='http://rufusputnamlodge.org' target='top').fa.fa-external-link &nbsp; Rufus Putnam Lodge.org
-          li
-            a(href='#').fa.fa-hand-spock-o.bold &nbsp; Reach Out
-            .cbp-hrsub
-              .cbp-hrsub-inner
-                div
-                  h4 Resume
-                  ul
-                    li
-                      a(href='resume.html').fa.fa-file-code-o &nbsp; HTML
-                    li
-                      a(href='resources/AdamJolicoeurResume_Web.pdf' target='top').fa.fa-file-pdf-o &nbsp; PDF
-                    li
-                      a(href='README.html' target='top').fa.fa-file-text-o &nbsp; Readme
-                    li
-                      a(href='https://www.behance.net/ajolicoeur' target='top').fa.fa-external-link &nbsp; Behance
-                div
-                  h4 Contact
-                  ul
-                    li
-                      a(href='mailto:adam.jolicoeur@icloud.com?subject=Contact from AdamJolicoeur.com').fa.fa-envelope &nbsp; Email
-                    li
-                      a(href='https://www.linkedin.com/in/ajjolicoeur').fa.fa-linkedin-square &nbsp; LinkedIn
-                    li
-                      a(href='https://github.com/mindreeper2420').fa.fa-github &nbsp; GitHub
+header.mdl-layout__header.mdl-layout__header--waterfall.portfolio-header
+  .mdl-layout__header-row.portfolio-logo-row
+    span.mdl-layout__title
+      .portfolio-logo
+      span.mdl-layout__title Simple portfolio website
+  .mdl-layout__header-row.portfolio-navigation-row.mdl-layout--large-screen-only
+    nav.mdl-navigation.mdl-typography--body-1-force-preferred-font
+      a.mdl-navigation__link.is-active(href='index.html') Portfolio
+      a.mdl-navigation__link(href='blog.html') Blog
+      a.mdl-navigation__link(href='about.html') About
+      a.mdl-navigation__link(href='contact.html') Contact
+.mdl-layout__drawer.mdl-layout--small-screen-only
+  nav.mdl-navigation.mdl-typography--body-1-force-preferred-font
+    a.mdl-navigation__link.is-active(href='index.html') Portfolio
+    a.mdl-navigation__link(href='blog.html') Blog
+    a.mdl-navigation__link(href='about.html') About
+    a.mdl-navigation__link(href='contact.html') Contact
+
+
+//- .container.navigation
+//-     .main
+//-       nav
+//-         span.pull-right.copyright
+//-           a(href='index.html') &copy; Adam J. Jolicoeur, 2008-2016
+//-         ul
+//-           li
+//-             a(href='#').header-link Explore
+//-               div
+//-                 h4 Portfolio
+//-                 ul
+//-                   li
+//-                     a(href='gallery.html').fa.fa-file-code-o &nbsp; Gallery of Designs
+//-                   li
+//-                     a(href='http://www.coroflot.com/ajolicoeur/portfolio').fa.fa-file-image-o &nbsp; Coroflot
+//-                   li
+//-                     a(href='https://www.behance.net/ajolicoeur' target='top').fa.fa-external-link &nbsp; Behance
+//-               div
+//-                 h4 What I Use
+//-                 ul
+//-                   li
+//-                     a(href='software.html').fa.fa-code &nbsp; Technologies
+//-               div
+//-                 h4 Projects
+//-                 ul
+//-                   li
+//-                     a(href='http://www.thescouterslodge.org' target='top').fa.fa-external-link &nbsp; The Scouters Lodge.org
+//-                   li
+//-                     a(href='http://rufusputnamlodge.org' target='top').fa.fa-external-link &nbsp; Rufus Putnam Lodge.org
+//-               div
+//-                 h4 Resume
+//-                 ul
+//-                   li
+//-                     a(href='resume.html').fa.fa-file-code-o &nbsp; HTML
+//-           li
+//-             a(href='#').header-link Reach Out
+//-               div
+//-                 h4 Contact
+//-                 ul
+//-                   li
+//-                     a(href='mailto:adam.jolicoeur@icloud.com?subject=Contact from AdamJolicoeur.com').fa.fa-envelope &nbsp; Email
+//-                   li
+//-                     a(href='https://www.linkedin.com/in/ajjolicoeur').fa.fa-linkedin-square &nbsp; LinkedIn
+//-                   li
+//-                     a(href='https://github.com/mindreeper2420').fa.fa-github &nbsp; GitHub

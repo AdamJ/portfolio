@@ -1,166 +1,129 @@
 <!DOCTYPE html>
-<html>
-  <html lang="en" class="no-js"></html>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Adam J. Jolicoeur</title>
-  <link rel="icon" type="image/png" href="img/headshot.png">
-  <link rel="stylesheet" href="css/normalize.css" type="text/css">
-  <link rel="stylesheet" href="css/site.css" type="text/css">
-  <link rel="stylesheet" href="css/component.css" type="text/css">
-  <!--link(rel='stylesheet', href='css/hover.css', type='text/css' )-->
-  <link rel="stylesheet" href="css/patternfly.min.css" type="text/css">
+<!--
+Material Design Lite
+Copyright 2015 Google Inc. All rights reserved.
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+https://www.apache.org/licenses/LICENSE-2.0
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License
+-->
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="A portfolio template that uses Material Design Lite.">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+    <title>Adam J. Jolicoeur</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:regular,bold,italic,thin,light,bolditalic,black,medium&amp;lang=en">
+    <link rel="stylesheet" href="https://code.getmdl.io/1.2.0/material.blue_grey-light_blue.min.css">
+    <link rel="stylesheet" href="css/material.css">
+    <link rel="stylesheet" href="css/site.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+  </head>
+  <body></body>
 </html>
-<body style="height: 93%" class="no-touch"></body>
-<div class="container navigation">
-  <div class="main">
-    <nav id="cbp-hrmenu" class="cbp-hrmenu"><span class="pull-right copyright"><a href="index.html">&copy; Adam J. Jolicoeur, 2008-2015</a></span>
-      <ul>
-        <li><a href="#" class="fa fa-map-signs bold"> <span class="header-link">Explore</span></a>
-          <div class="cbp-hrsub">
-            <div class="cbp-hrsub-inner">
-              <div>
-                <h4>Portfolio</h4>
-                <ul>
-                  <li><a href="gallery.html" class="fa fa-file-code-o">&nbsp; Gallery of Designs</a></li>
-                  <li><a href="http://www.coroflot.com/ajolicoeur/portfolio" class="fa fa-file-image-o">&nbsp; Coroflot</a></li>
-                </ul>
-              </div>
-              <div>
-                <h4>What I Use</h4>
-                <ul>
-                  <li><a href="software.html" class="fa fa-code">&nbsp; Software, Technologies &amp; Practices</a></li>
-                </ul>
-              </div>
-              <div>
-                <h4>Projects</h4>
-                <ul>
-                  <li><a href="http://www.thescouterslodge.org" target="top" class="fa fa-external-link">&nbsp; The Scouters Lodge.org</a></li>
-                  <li><a href="http://rufusputnamlodge.org" target="top" class="fa fa-external-link">&nbsp; Rufus Putnam Lodge.org</a></li>
-                </ul>
-              </div>
-            </div>
-          </div>
-        </li>
-        <li><a href="#" class="fa fa-hand-spock-o bold">&nbsp; Reach Out</a>
-          <div class="cbp-hrsub">
-            <div class="cbp-hrsub-inner">
-              <div>
-                <h4>Resume</h4>
-                <ul>
-                  <li><a href="resume.html" class="fa fa-file-code-o">&nbsp; HTML</a></li>
-                  <li><a href="resources/AdamJolicoeurResume_Web.pdf" target="top" class="fa fa-file-pdf-o">&nbsp; PDF</a></li>
-                  <li><a href="README.html" target="top" class="fa fa-file-text-o">&nbsp; Readme</a></li>
-                  <li><a href="https://www.behance.net/ajolicoeur" target="top" class="fa fa-external-link">&nbsp; Behance</a></li>
-                </ul>
-              </div>
-              <div>
-                <h4>Contact</h4>
-                <ul>
-                  <li><a href="mailto:adam.jolicoeur@icloud.com?subject=Contact from AdamJolicoeur.com" class="fa fa-envelope">&nbsp; Email</a></li>
-                  <li><a href="https://www.linkedin.com/in/ajjolicoeur" class="fa fa-linkedin-square">&nbsp; LinkedIn</a></li>
-                  <li><a href="https://github.com/mindreeper2420" class="fa fa-github">&nbsp; GitHub</a></li>
-                </ul>
-              </div>
-            </div>
-          </div>
-        </li>
-      </ul>
-    </nav>
+<div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+  <header class="mdl-layout__header mdl-layout__header--waterfall portfolio-header">
+    <div class="mdl-layout__header-row portfolio-logo-row"><span class="mdl-layout__title">
+        <div class="portfolio-logo"></div><span class="mdl-layout__title">Simple portfolio website</span></span></div>
+    <div class="mdl-layout__header-row portfolio-navigation-row mdl-layout--large-screen-only">
+      <nav class="mdl-navigation mdl-typography--body-1-force-preferred-font"><a href="index.html" class="mdl-navigation__link">About</a><a href="gallery.html" class="mdl-navigation__link is-active">Gallery</a><a href="resume.html" class="mdl-navigation__link">Resume</a><a href="contact.html" class="mdl-navigation__link">Contact</a></nav>
+    </div>
+  </header>
+  <div class="mdl-layout__drawer mdl-layout--small-screen-only">
+    <nav class="mdl-navigation mdl-typography--body-1-force-preferred-font"><a href="index.html" class="mdl-navigation__link">About</a><a href="gallery.html" class="mdl-navigation__link is-active">Gallery</a><a href="resume.html" class="mdl-navigation__link">Resume</a><a href="contact.html" class="mdl-navigation__link">Contact</a></nav>
   </div>
+  <main class="mdl-layout__content">
+    <div class="mdl-grid portfolio-max-width">
+      <div class="mdl-cell mdl-card mdl-shadow--4dp portfolio-card">
+        <div class="mdl-card__media"><img src=" images/example-work01.jpg" border="0" alt="" class="article-image"></div>
+        <div class="mdl-card__title">
+          <h2 class="mdl-card__title-text">Blog template</h2>
+        </div>
+        <div class="mdl-card__supporting-text">Enim labore aliqua consequat ut quis ad occaecat aliquip incididunt. Sunt nulla eu enim irure enim nostrud aliqua consectetur ad consectetur sunt ullamco officia. Ex officia laborum et consequat duis.</div>
+        <div class="mdl-card__actions mdl-card--border"><a href="portfolio-example01.html" class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect mdl-button--accent">Read more</a></div>
+      </div>
+      <div class="mdl-cell mdl-card mdl-shadow--4dp portfolio-card">
+        <div class="mdl-card__media"><img src=" images/example-work07.jpg" border="0" alt="" class="article-image"></div>
+        <div class="mdl-card__title">
+          <h2 class="mdl-card__title-text">Sunt nulla</h2>
+        </div>
+        <div class="mdl-card__supporting-text">Enim labore aliqua consequat ut quis ad occaecat aliquip incididunt. Sunt nulla eu enim irure enim nostrud aliqua consectetur ad consectetur sunt ullamco officia. Ex officia laborum et consequat duis.</div>
+        <div class="mdl-card__actions mdl-card--border"><a href="portfolio-example01.html" class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect mdl-button--accent">Read more</a></div>
+      </div>
+      <div class="mdl-cell mdl-card mdl-shadow--4dp portfolio-card">
+        <div class="mdl-card__media"><img src=" images/example-work02.jpg" border="0" alt="" class="article-image"></div>
+        <div class="mdl-card__title">
+          <h2 class="mdl-card__title-text">Android.com website</h2>
+        </div>
+        <div class="mdl-card__supporting-text">Enim labore aliqua consequat ut quis ad occaecat aliquip incididunt. Sunt nulla eu enim irure enim nostrud aliqua consectetur ad consectetur sunt ullamco officia. Ex officia laborum et consequat duis.</div>
+        <div class="mdl-card__actions mdl-card--border"><a href="portfolio-example01.html" class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect mdl-button--accent">Read more</a></div>
+      </div>
+      <div class="mdl-cell mdl-card mdl-shadow--4dp portfolio-card">
+        <div class="mdl-card__media"><img src=" images/example-work03.jpg" border="0" alt="" class="article-image"></div>
+        <div class="mdl-card__title">
+          <h2 class="mdl-card__title-text">Dashboard template</h2>
+        </div>
+        <div class="mdl-card__supporting-text">Enim labore aliqua consequat ut quis ad occaecat aliquip incididunt. Sunt nulla eu enim irure enim nostrud aliqua consectetur ad consectetur sunt ullamco officia. Ex officia laborum et consequat duis.</div>
+        <div class="mdl-card__actions mdl-card--border"><a href="portfolio-example01.html" class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect mdl-button--accent">Read more</a></div>
+      </div>
+      <div class="mdl-cell mdl-card mdl-shadow--4dp portfolio-card">
+        <div class="mdl-card__media"><img src=" images/example-work04.jpg" border="0" alt="" class="article-image"></div>
+        <div class="mdl-card__title">
+          <h2 class="mdl-card__title-text">Text-heavy website</h2>
+        </div>
+        <div class="mdl-card__supporting-text">Enim labore aliqua consequat ut quis ad occaecat aliquip incididunt. Sunt nulla eu enim irure enim nostrud aliqua consectetur ad consectetur sunt ullamco officia. Ex officia laborum et consequat duis.</div>
+        <div class="mdl-card__actions mdl-card--border"><a href="portfolio-example01.html" class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect mdl-button--accent">Read more</a></div>
+      </div>
+      <div class="mdl-cell mdl-card mdl-shadow--4dp portfolio-card">
+        <div class="mdl-card__media"><img src=" images/example-work08.jpg" border="0" alt="" class="article-image"></div>
+        <div class="mdl-card__title">
+          <h2 class="mdl-card__title-text">Ex officia laborum</h2>
+        </div>
+        <div class="mdl-card__supporting-text">Enim labore aliqua consequat ut quis ad occaecat aliquip incididunt. Sunt nulla eu enim irure enim nostrud aliqua consectetur ad consectetur sunt ullamco officia. Ex officia laborum et consequat duis.</div>
+        <div class="mdl-card__actions mdl-card--border"><a href="portfolio-example01.html" class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect mdl-button--accent">Read more</a></div>
+      </div>
+      <div class="mdl-cell mdl-card mdl-shadow--4dp portfolio-card">
+        <div class="mdl-card__media"><img src=" images/example-work05.jpg" border="0" alt="" class="article-image"></div>
+        <div class="mdl-card__title">
+          <h2 class="mdl-card__title-text">Stand-alone article</h2>
+        </div>
+        <div class="mdl-card__supporting-text">Enim labore aliqua consequat ut quis ad occaecat aliquip incididunt. Sunt nulla eu enim irure enim nostrud aliqua consectetur ad consectetur sunt ullamco officia. Ex officia laborum et consequat duis.</div>
+        <div class="mdl-card__actions mdl-card--border"><a href="portfolio-example01.html" class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect mdl-button--accent">Read more</a></div>
+      </div>
+      <div class="mdl-cell mdl-card mdl-shadow--4dp portfolio-card">
+        <div class="mdl-card__media"><img src=" images/example-work06.jpg" border="0" alt="" class="article-image"></div>
+        <div class="mdl-card__title">
+          <h2 class="mdl-card__title-text">MDL website</h2>
+        </div>
+        <div class="mdl-card__supporting-text">Enim labore aliqua consequat ut quis ad occaecat aliquip incididunt. Sunt nulla eu enim irure enim nostrud aliqua consectetur ad consectetur sunt ullamco officia. Ex officia laborum et consequat duis.</div>
+        <div class="mdl-card__actions mdl-card--border"><a href="portfolio-example01.html" class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect mdl-button--accent">Read more</a></div>
+      </div>
+      <div class="mdl-cell mdl-card mdl-shadow--4dp portfolio-card">
+        <div class="mdl-card__media"><img src=" images/example-work09.jpg" border="0" alt="" class="article-image"></div>
+        <div class="mdl-card__title">
+          <h2 class="mdl-card__title-text">Consequat ut quis</h2>
+        </div>
+        <div class="mdl-card__supporting-text">Enim labore aliqua consequat ut quis ad occaecat aliquip incididunt. Sunt nulla eu enim irure enim nostrud aliqua consectetur ad consectetur sunt ullamco officia. Ex officia laborum et consequat duis.</div>
+        <div class="mdl-card__actions mdl-card--border"><a href="portfolio-example01.html" class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect mdl-button--accent">Read more</a></div>
+      </div>
+    </div>
+    <footer class="mdl-mini-footer">
+      <div class="mdl-mini-footer__left-section">
+        <div class="mdl-logo">Simple portfolio website</div>
+      </div>
+      <div class="mdl-mini-footer__right-section">
+        <ul class="mdl-mini-footer__link-list">
+          <li><a href="#">Help</a></li>
+          <li><a href="#">Privacy & Terms</a></li>
+        </ul>
+      </div>
+    </footer>
+  </main>
 </div>
-<link rel="stylesheet" href="css/_gallery.css" type="text/css">
-<div class="center">
-  <h1>Design Portfolio</h1>
-  <h2>I design and create amazing things.</h2>
-  <p class="lead">From personal to professional, I create products that everyone can use and love.</p>
-  <p class="lead">See my &nbsp;<a href="http://www.coroflot.com/ajolicoeur/portfolio" target="top" class="orange">Coroflot page for a larger selection.</a></p>
-  <hr>
-</div>
-<p class="title">Web Application Designs</p>
-<div class="box">
-  <div class="box-inner"><a href="img/Dashboard.png" target="top" class="hvr-grow"><img src="img/Dashboard.jpg">
-      <div class="title-box">Dashboard Concept</div></a></div>
-</div>
-<div class="box">
-  <div class="box-inner"><a href="img/ProjectDash.png" target="top" class="hvr-grow"><img src="img/ProjectDash.png">
-      <div class="title-box">Project Breakdown</div></a></div>
-</div>
-<div class="box">
-  <div class="box-inner"><a href="img/DataDash.png" target="top" class="hvr-grow"><img src="img/DataDash.png">
-      <div class="title-box">Detailed Project Info</div></a></div>
-</div>
-<div class="box">
-  <div class="box-inner"><a href="img/OverallDash.png" target="top" class="hvr-grow"><img src="img/OverallDash.png">
-      <div class="title-box">Dashboard History</div></a></div>
-</div>
-<div class="box">
-  <div class="box-inner"><a href="img/ServerConfigDash.png" target="top" class="hvr-grow"><img src="img/ServerConfigDash.png">
-      <div class="title-box">Server Config</div></a></div>
-</div>
-<div class="box">
-  <div class="box-inner"><a href="img/ChartOptionsModal.png" target="top" class="hvr-grow"><img src="img/ChartOptionsModal.png">
-      <div class="title-box">Options Modal</div></a></div>
-</div>
-<div class="box">
-  <div class="box-inner"><a href="img/Hamburger.png" target="top" class="hvr-grow skinny"><img src="img/Hamburger.png">
-      <div class="title-box"> Menu</div></a></div>
-</div>
-<div class="box">
-  <div class="box-inner"><a href="img/NewUI-Empty.png" target="top" class="hvr-grow"><img src="img/NewUI-Empty.png">
-      <div class="title-box">Clean Dashboar</div></a></div>
-</div>
-<div class="box">
-  <div class="box-inner"><a href="img/NewUI-Navigation.png" target="top" class="hvr-grow"><img src="img/NewUI-Navigation.png">
-      <div class="title-box">Right-Side Navigation</div></a></div>
-</div>
-<div class="box">
-  <div class="box-inner"><a href="img/NewUI-ChartOptions.png" target="top" class="hvr-grow"><img src="img/NewUI-ChartOptions.png">
-      <div class="title-box">Left-Side Options</div></a></div>
-</div>
-<p class="title">Rufus Putnam Lodge - Original vs New</p>
-<div class="box">
-  <div class="box-inner"><a href="img/RPLSS1.png" target="top" class="hvr-grow"><img src="img/RPLSS1.jpg">
-      <div class="title-box">Original Dashboard-Desktop</div></a></div>
-</div>
-<div class="box">
-  <div class="box-inner"><a href="img/RPLSS2.png" target="top" class="hvr-grow"><img src="img/RPLSS2.jpg">
-      <div class="title-box">Original Dashboard-Mobile</div></a></div>
-</div>
-<div class="box">
-  <div class="box-inner"><a href="img/RPLOnePage.png" target="top" class="hvr-grow"><img src="img/RPLOnePage.jpg">
-      <div class="title-box">New Member Center-Desktop</div></a></div>
-</div>
-<div class="box">
-  <div class="box-inner"></div>
-</div>
-<div class="box">
-  <div class="box-inner"></div>
-</div>
-<p class="title">Mobile Designs &amp; Logos</p>
-<div class="box">
-  <div class="box-inner"><a href="img/iPhone_Dashboard.png" target="top" class="hvr-grow"><img src="img/iPhone_Dashboard.png">
-      <div class="title-box">iPhone Dashboard</div></a></div>
-</div>
-<div class="box">
-  <div class="box-inner"><a href="img/iPhone_Projects.png" target="top" class="hvr-grow"><img src="img/iPhone_Projects.jpg">
-      <div class="title-box">iPhone Project Listing</div></a></div>
-</div>
-<div class="box">
-  <div class="box-inner"><a href="img/iPhone_Search.png" target="top" class="hvr-grow"><img src="img/iPhone_Search.jpg">
-      <div class="title-box">Search on iPhone</div></a></div>
-</div>
-<div class="box">
-  <div class="box-inner"><a href="img/mmesa_copyright.jpg" target="top" class="hvr-grow"><img src="img/mmesa_copyright.jpg">
-      <div class="title-box">Logo Design</div></a></div>
-</div>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-<script src="js/cbpHorizontalMenu.min.js"></script>
-<script src="js/gamingapp.js"></script>
-<script src="js/notouch.js"></script>
-<script src="js/patternfly.min.js"></script>
-<script>
-  $(function() {
-  cbpHorizontalMenu.init();
-  });
-</script>
+<script src="https://code.getmdl.io/1.2.0/material.min.js"></script>

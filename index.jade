@@ -1,6 +1,46 @@
 include views/site/header.jade
-include views/site/navbar.jade
 
-include views/include/intro.jade
-
-include views/site/footer.jade
+.mdl-layout.mdl-js-layout.mdl-layout--fixed-header
+  header.mdl-layout__header.mdl-layout__header--waterfall.portfolio-header
+    .mdl-layout__header-row.portfolio-logo-row
+      span.mdl-layout__title
+        .portfolio-logo
+        span.mdl-layout__title Adam J. Jolicoeur
+    .mdl-layout__header-row.portfolio-navigation-row.mdl-layout--large-screen-only
+      nav.mdl-navigation.mdl-typography--body-1-force-preferred-font
+        a.mdl-navigation__link.is-active(href='index.html') About
+        a.mdl-navigation__link(href='gallery.html') Gallery
+        a.mdl-navigation__link(href='resume.html') Resume
+        a.mdl-navigation__link(href='contact.html') Contact
+  .mdl-layout__drawer.mdl-layout--small-screen-only
+    nav.mdl-navigation.mdl-typography--body-1-force-preferred-font
+      a.mdl-navigation__link.is-active(href='index.html') About
+      a.mdl-navigation__link(href='gallery.html') Gallery
+      a.mdl-navigation__link(href='resume.html') Resume
+      a.mdl-navigation__link(href='contact.html') Contact
+  main.mdl-layout__content
+    .mdl-grid.portfolio-max-width
+      .mdl-cell.mdl-cell--12-col.mdl-card.mdl-shadow--4dp
+        .mdl-card__title
+          h2.mdl-card__title-text About
+        .mdl-card__media
+          img.article-image(src=' images/about-header.jpg', border='0', alt='')
+        .mdl-grid.portfolio-copy
+          h3.mdl-cell.mdl-cell--12-col.mdl-typography--headline Introduction
+          .mdl-cell.mdl-cell--8-col.mdl-card__supporting-text.no-padding
+            p
+              | Excepteur reprehenderit sint exercitation ipsum consequat qui sit id velit elit. Velit anim eiusmod labore sit amet. Voluptate voluptate irure occaecat deserunt incididunt esse in. Sunt velit aliquip sunt elit ex nulla reprehenderit qui ut eiusmod ipsum do. Duis veniam reprehenderit laborum occaecat id proident nulla veniam. Duis enim deserunt voluptate aute veniam sint pariatur exercitation. Irure mollit est sit labore est deserunt pariatur duis aute laboris cupidatat. Consectetur consequat esse est sit veniam adipisicing ipsum enim irure.
+          h3.mdl-cell.mdl-cell--12-col.mdl-typography--headline Irure mollit est sit labore
+          .mdl-cell.mdl-cell--8-col.mdl-card__supporting-text.no-padding
+            p
+              | Excepteur reprehenderit sint exercitation ipsum consequat qui sit id velit elit. Velit anim eiusmod labore sit amet. Voluptate voluptate irure occaecat deserunt incididunt esse in. Sunt velit aliquip sunt elit ex nulla reprehenderit qui ut eiusmod ipsum do. Duis veniam reprehenderit laborum occaecat id proident nulla veniam. Duis enim deserunt voluptate aute veniam sint pariatur exercitation. Irure mollit est sit labore est deserunt pariatur duis aute laboris cupidatat. Consectetur consequat esse est sit veniam adipisicing ipsum enim irure.
+    footer.mdl-mini-footer
+      .mdl-mini-footer__left-section
+        .mdl-logo Simple portfolio website
+      .mdl-mini-footer__right-section
+        ul.mdl-mini-footer__link-list
+          li
+            a(href='#') Help
+          li
+            a(href='#') Privacy & Terms
+script(src='https://code.getmdl.io/1.2.0/material.min.js')

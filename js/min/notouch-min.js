@@ -1,1 +1,0 @@
-$(function(){"ontouchstart"in window&&($("body").removeClass("no-touch").addClass("touch"),$("div.box-inner img").click(function(){$(this).closest(".box-inner").toggleClass("touch-focus")}))});

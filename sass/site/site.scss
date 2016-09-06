@@ -2,6 +2,16 @@
 @import '_variables.scss';
 @import '_colors.scss';
 
+.mdl-layout__header {
+  background: url(../images/header-bg.jpg);
+}
+footer {
+  background-image: url(../images/footer-background.png);
+}
 //@import '_default.scss';
-@import '_custom.scss';
+//@import '_custom.scss';
 //@import '_navigation.scss';
+
+//outside sources
+//@import '../components/component.scss';
+//@import '../components/hover.scss';
