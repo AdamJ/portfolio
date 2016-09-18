@@ -3,7 +3,14 @@
 @import '_colors.scss';
 
 .mdl-layout__header {
-  background: url(../images/header-bg.jpg);
+  background: url(../img/SunOverDock.jpg) no-repeat center;
+  //background-color: #2a2b2a;
+  width: 100%;
+  height: auto;
+}
+.portfolio-logo {
+  display: none;
+  background: url(../img/headshot.jpg);
 }
 footer {
   background-image: url(../images/footer-background.png);
