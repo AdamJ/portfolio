@@ -1,2 +1,6 @@
 /config.codekit
 /_less
+bower_components
+node_modules
+.idea
+config.codekit3

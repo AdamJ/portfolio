@@ -17,7 +17,7 @@
 #cbp-hrmenu.cbp-hrmenu {
     & > ul > li > a {
         color: #ffffff;
-        width: 180px;
+        min-width: 180px;
         &:hover {
             // color: #FF5722;
             &:after {
