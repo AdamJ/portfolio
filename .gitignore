@@ -1,2 +1,4 @@
-/config.codekit
-/_less
+node_modules
+bower_components
+.idea
+.codekit-cache

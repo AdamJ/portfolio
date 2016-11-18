@@ -1,0 +1,38 @@
+@import "_variables.scss";
+
+button.navbar-toggle span.fa.fa-bars {
+    font-size: 14px;
+}
+.navbar-header {
+    height: 58px;
+    button {
+        color: $white;
+    }
+}
+
+.navbar {
+    &.navbar-pf-vertical {
+        margin-bottom: 60px;
+        top: 0;
+        .navbar-toggle {
+            margin: 0;
+        }
+        .navbar-brand {
+            padding: 18px 0 12px;
+        }
+    }
+}
+
+.nav-pf-vertical {
+    background-color: $pf-black;
+}
+
+.dropdown-menu-up {
+    bottom: 100%;
+}
+.hide {
+    display: none;
+}
+.show {
+    display: block;
+}

@@ -1,90 +1,128 @@
-<!DOCTYPE html>
-<html>
-  <html lang="en" class="no-js"></html>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Adam J. Jolicoeur</title>
-  <link rel="icon" type="image/png" href="img/headshot.png">
-  <link rel="stylesheet" href="css/normalize.css" type="text/css">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
-  <link rel="stylesheet" href="css/site.css" type="text/css">
-  <link rel="stylesheet" href="css/component.css" type="text/css">
-  <link rel="stylesheet" href="css/hover.css" type="text/css">
-  <link href="https://fonts.googleapis.com/css?family=Roboto:400,300,500,700" rel="stylesheet" type="text/css">
+<html class="layout-pf layout-pf-fixed">
+    <head>
+        <script src="dist/js/webcomponents.min.js"></script>
+        <!-- Adam Jolicoeur styles -->
+        <link rel="icon" type="image/png" href="img/headshot.png">
+        <!-- PatternFly Styles -->
+        <link href="dist/css/patternfly.min.css" rel="stylesheet" media="screen, print">
+        <link href="dist/css/patternfly-additions.min.css" rel="stylesheet" media="screen, print">
+        <link href="dist/css/portfolio.css" rel="stylesheet" media="screen, print">
+        <!-- jQuery -->
+        <script src="dist/js/jquery.min.js"></script>
+        <!-- Bootstrap -->
+        <script src="dist/js/bootstrap.min.js"></script>
+        <!-- PatternFly -->
+        <script src="dist/js/patternfly.min.js"></script>
+        
+    </head>
+    <body>
+        <div class="container-fluid container-cards-pf container-pf-nav-pf-vertical">
+        <!--/.navbar -->
+        <nav class="navbar navbar-pf-vertical">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle">
+                    <i class="fa fa-gamepad fa-3x"></i>
+                </button>
+                <a href="/" class="navbar-brand">
+                    Adam J. Jolicoeur
+                </a>
+            </div>
+        </nav>
+        <!--/.navbar-->
+        <div class="nav-pf-vertical nav-pf-vertical-with-sub-menus collapsed">
+            <ul class="list-group">
+                <li class="list-group-item">
+                    <a>
+                        <span class="fa fa-hand-rock-o" data-toggle="tooltip" title="Home"></span>
+                        <span class="list-group-item-value">Intro</span>
+                    </a>
+                </li>
+                <li class="list-group-item">
+                    <a>
+                        <span class="fa fa-hand-paper-o" data-toggle="tooltip" title="Dashboard"></span>
+                        <span class="list-group-item-value">About Me</span>
+                    </a>
+                </li>
+                <li class="list-group-item secondary-nav-item-pf" data-target="#ipsum-secondary">
+                    <a>
+                        <span class="fa fa-hand-scissors-o" data-toggle="tooltip" title="Ipsum"></span>
+                        <span class="list-group-item-value">Portfolio</span>
+                    </a>
+
+                    <div id="-secondary" class="nav-pf-secondary-nav">
+                        <div class="nav-item-pf-header">
+                            <a class="secondary-collapse-toggle-pf" data-toggle="collapse-secondary-nav"></a>
+                            <span>Portfolio</span>
+                        </div>
+                        <ul class="list-group">
+                            <li class="list-group-item" data-target="#ipsum-intellegam-tertiary">
+                                <a>
+                                    <i class="fa fa-dribbble"></i>
+                                    <span class="list-group-item-value">Dribbble</span>
+                                </a>
+                            </li>
+                            <li class="list-group-item" data-target="#ipsum-copiosae-tertiary">
+                                <a>
+                                    <i class="fa fa-asterisk"></i>
+                                    <span class="list-group-item-value">Coroflot</span>
+                                </a>
+                            </li>
+                            <li class="list-group-item" data-target="#ipsum-copiosae-tertiary">
+                                <a>
+                                    <i class="fa fa-github"></i>
+                                    <span class="list-group-item-value">Design Docs</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="list-group-item">
+                    <a>
+                        <span class="fa fa-hand-lizard-o" data-toggle="tooltip" title="Dolor"></span>
+                        <span class="list-group-item-value">Resume</span>
+                    </a>
+                </li>
+                <li class="list-group-item secondary-nav-item-pf" data-target="#ipsum-secondary">
+                    <a>
+                        <span class="fa fa-hand-spock-o" data-toggle="tooltip" title="Ipsum"></span>
+                        <span class="list-group-item-value">Social</span>
+                    </a>
+                    <div id="-secondary" class="nav-pf-secondary-nav">
+                        <div class="nav-item-pf-header">
+                            <a class="secondary-collapse-toggle-pf" data-toggle="collapse-secondary-nav"></a>
+                            <span>Social</span>
+                        </div>
+                        <ul class="list-group">
+                            <li class="list-group-item" data-target="#ipsum-intellegam-tertiary">
+                                <a>
+                                    <i class="fa fa-linkedin-square"></i>
+                                    <span class="list-group-item-value">Linked In</span>
+                                </a>
+                            </li>
+                            <li class="list-group-item" data-target="#ipsum-copiosae-tertiary">
+                                <a>
+                                    <i class="fa fa-twitter-square"></i>
+                                    <span class="list-group-item-value">Twitter</span>
+                                </a>
+                            </li>
+                            <li class="list-group-item" data-target="#ipsum-patrioque-tertiary">
+                                <a>
+                                    <span class="list-group-item-value"></span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <div class="row">
+            
+        </div><!-- /row -->
+        <script>
+            $(document).ready(function() {
+                // Initialize the vertical navigation
+                $().setupVerticalNavigation(true);
+            });
+        </script>
+    </body>
 </html>
-<body style="height: 93%" class="no-touch"></body>
-<div class="container navigation">
-  <div class="main">
-    <nav id="cbp-hrmenu" class="cbp-hrmenu"><span class="pull-right copyright"><a href="index.html">&copy; Adam J. Jolicoeur, 2008-2015</a></span>
-      <ul>
-        <li><a href="#" class="fa fa-map-signs bold">&nbsp; Explore</a>
-          <div class="cbp-hrsub">
-            <div class="cbp-hrsub-inner">
-              <div>
-                <h4>Portfolio</h4>
-                <ul>
-                  <li><a href="gallery.html" class="fa fa-file-code-o">&nbsp; Gallery of Designs</a></li>
-                  <li><a href="http://www.coroflot.com/ajolicoeur/portfolio" class="fa fa-file-image-o">&nbsp; Coroflot</a></li>
-                </ul>
-              </div>
-              <div>
-                <h4>What I Use</h4>
-                <ul>
-                  <li><a href="software.html" class="fa fa-code">&nbsp; Software, Technologies &amp; Practices</a></li>
-                </ul>
-              </div>
-              <div>
-                <h4>Projects</h4>
-                <ul>
-                  <li><a href="http://www.thescouterslodge.org" target="top" class="fa fa-external-link">&nbsp; The Scouters Lodge.org</a></li>
-                  <li><a href="http://rufusputnamlodge.org" target="top" class="fa fa-external-link">&nbsp; Rufus Putnam Lodge.org</a></li>
-                </ul>
-              </div>
-            </div>
-          </div>
-        </li>
-        <li><a href="#" class="fa fa-hand-spock-o bold">&nbsp; Reach Out</a>
-          <div class="cbp-hrsub">
-            <div class="cbp-hrsub-inner">
-              <div>
-                <h4>Resume</h4>
-                <ul>
-                  <li><a href="resume.html" class="fa fa-file-code-o">&nbsp; HTML</a></li>
-                  <li><a href="resources/AdamJolicoeurResume_Web.pdf" target="top" class="fa fa-file-pdf-o">&nbsp; PDF</a></li>
-                  <li><a href="README.html" target="top" class="fa fa-file-text-o">&nbsp; Readme</a></li>
-                  <li><a href="https://www.behance.net/ajolicoeur" target="top" class="fa fa-external-link">&nbsp; Behance</a></li>
-                </ul>
-              </div>
-              <div>
-                <h4>Contact</h4>
-                <ul>
-                  <li><a href="mailto:adam.jolicoeur@icloud.com?subject=Contact from AdamJolicoeur.com" class="fa fa-envelope">&nbsp; Email</a></li>
-                  <li><a href="https://www.linkedin.com/in/ajjolicoeur" class="fa fa-linkedin-square">&nbsp; LinkedIn</a></li>
-                  <li><a href="https://github.com/mindreeper2420" class="fa fa-github">&nbsp; GitHub</a></li>
-                </ul>
-              </div>
-            </div>
-          </div>
-        </li>
-      </ul>
-    </nav>
-  </div>
-</div>
-<div class="container main-content">
-  <article style="display: inline-block" class="intro">
-    <h1>Hi.</h1>
-    <h2>My name is <b>Adam Jolicoeur</b></h2>
-    <h3>I love what I do and bring that passion to every project that I work on.</h3>
-  </article><img src="img/headshot.jpg" class="headshot">
-  <article class="row-explore"><br><a href="portfolio.html">
-      <button class="primary-btn">Explore My Site</button></a></article>
-</div>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-<script src="js/cbpHorizontalMenu.min.js"></script>
-<script src="js/gamingapp.js"></script>
-<script src="js/notouch.js"></script>
-<script>
-  $(function() {
-  cbpHorizontalMenu.init();
-  });
-</script>

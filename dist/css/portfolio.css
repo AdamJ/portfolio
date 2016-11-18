@@ -1,0 +1,27 @@
+button.navbar-toggle span.fa.fa-bars {
+  font-size: 14px; }
+
+.navbar-header {
+  height: 58px; }
+  .navbar-header button {
+    color: #ffffff; }
+
+.navbar.navbar-pf-vertical {
+  margin-bottom: 60px;
+  top: 0; }
+  .navbar.navbar-pf-vertical .navbar-toggle {
+    margin: 0; }
+  .navbar.navbar-pf-vertical .navbar-brand {
+    padding: 18px 0 12px; }
+
+.nav-pf-vertical {
+  background-color: #1d1d1d; }
+
+.dropdown-menu-up {
+  bottom: 100%; }
+
+.hide {
+  display: none; }
+
+.show {
+  display: block; }

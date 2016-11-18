@@ -1,1 +1,0 @@
-$("#target").click(function(){$("#output").html(function(t,n){return 1*n+1})}),$("#clear").click(function(){$("#output").html(function(t,n){return 0*n})});
